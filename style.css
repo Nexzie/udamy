@@ -1,0 +1,165 @@
+h1{
+    font-size: 30px;
+}
+
+/* Style the links inside the pill navigation menu */
+.pill-nav a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+  }
+  
+  /* Change the color of links on mouse-over */
+  .pill-nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .pill-nav a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+  }
+  
+  /* mid left text */
+  .text-block {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: rgb(252, 248, 248);
+    color: rgb(0, 0, 0);
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 400px;
+    height: 200px;
+    font-size: 30px;
+  }
+
+  .sec {
+    font-size: 20px;
+    padding-bottom: 50px;
+  }
+
+  .instructor-section {
+    background-color: white;
+    border-top: solid 5px rgb(228, 220, 220);
+  }
+  .instructor-section .container {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 2rem ;
+  }
+  
+  .instructor-section .content {
+    color: rgb(12, 1, 1);
+    position: relative;
+    padding-left: 50px;
+    font-size: 23px;
+    padding-bottom: 30px;
+
+  }
+
+  .business-section {
+    background-color: white;
+    border-top: solid 5px rgb(228, 220, 220);
+  }
+
+  .business-section .container {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 2rem ;
+  }
+  
+  .business-section .content {
+    color: rgb(12, 1, 1);
+    position: relative;
+    padding-left: 50px;
+    font-size: 23px;
+    padding-bottom: 50px;
+ }
+
+  .button {
+        background-color: black;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+}
+
+.transform-section {
+    background-color: white;
+    border-top: solid 5px rgb(228, 220, 220);
+  }
+
+  .transform-section .container {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 2rem ;
+  }
+  
+  .transform-section .content {
+    color: rgb(12, 1, 1);
+    position: relative;
+    padding-left: 50px;
+    font-size: 23px;
+    padding-bottom: 50px;
+
+  }
+
+  .title {
+    width: 50%;
+  }
+
+  .thead{
+    padding: 50px;
+  }
+
+  .t1 {
+    padding: 30px; 
+  }
+
+  .t9 {
+    padding: 30px;
+  }
+
+  .t2{
+    padding: 30px;
+  }
+  .t4{
+    padding: 30px;
+  }
+  .table {
+    padding-left: 30px;
+  }
+
+  .pill-nav{
+    padding-left: 3rem;
+  }
+  .search{
+     border-radius: 25%;
+  }
+  .cat {
+    padding: 20%;
+  }
